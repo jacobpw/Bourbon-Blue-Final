@@ -1,0 +1,72 @@
+html{
+  height:100%
+}
+
+body{
+  font family:"Helvetica Neue", Helvetica, Arial, Sans-serif;
+  margin:0px;
+  border:0px;
+  padding:0px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header{
+  background-color:#3c2225;
+  width:100%;
+  height:250px;
+  }
+
+.logo{
+position:absolute;
+left:475px;
+top:10px;
+height:auto;
+width:100px;
+}
+
+.symbol{
+  float:left;
+  position:absolute;
+  left:25px;
+  top:10px;
+}
+.tag{
+  position:absolute;
+  left:275px;
+  top:50px;
+  width=100px;
+  height=auto;
+}
+
+
+.login{
+  position: absolute;
+    right:10px;
+    top:0%;
+}
+
+.nav{
+  background-color:#ab6067;
+  font-size:20pt;
+  color:white;
+  padding:0px 10px 0px 10px;
+  position:absolute;
+  top:120px;
+  display:block;
+  float:left;
+  transform:rotate(270deg);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.banner{
+  background-image:url('../image/chalkboard.jpg');
+  width:100%;
+  height:250px;
+}
+
+.footer{
+  background-color:white;
+}
