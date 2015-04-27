@@ -60,6 +60,9 @@ width:100px;
 a:link {
     text-decoration: none;
 }
+ul{
+  list-style-type: none;
+}
 
 .banner{
   background-image:url('../image/chalkboard.jpg');
