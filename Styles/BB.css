@@ -46,7 +46,7 @@ width:100px;
 }
 
 .symbol{
-  position:fixed;
+  position:absolute;
   left:5px;
 }
 
@@ -113,13 +113,37 @@ ul{
 }
 
 .banner h2{
+  color:white;
+}
+
+.banner .l{
+  position:absolute;
+  top:0px;
+  left:500px;
+}
+
+.banner .g{
   position:absolute;
   left:550px;
 }
 .banner h3{
   position:absolute;
-  right:150px;
-  bottom:-50px;
+  right:65px;
+  bottom:0px;
+  color:white;
+  background-color:gray;
+  padding:3px 8px;
+
+}
+
+.gallery{
+  position:absolute;
+  left:8%;
+  top:70%;
+}
+
+.gallery img{
+  padding:20px;
 }
 
 .footer{
