@@ -178,3 +178,9 @@ ul{
   right:100px;
   top:100px;
 }
+
+.widget{
+  position:absolute;
+  top:500px;
+  right:50px;
+}
