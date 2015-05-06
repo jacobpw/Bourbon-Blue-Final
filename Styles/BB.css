@@ -145,7 +145,7 @@ ul{
 
 .gallery .l h3{
   position:absolute;
-  top:240px;
+  top:243px;
   right:-80px;
   display:inline-block;
   width:70px;
@@ -160,9 +160,21 @@ ul{
   height:100px;
 }
 
-.footerheading{
+.footer{
   position:absolute;
-  left:550px;
-  bottom:-100px;
+  right:0px;
+  bottom:-205px;
   color:black;
+}
+
+.footer h2{
+  position:absolute;
+  top:-20px;
+  left:43%;
+}
+
+.footer h4{
+  position:absolute;
+  right:100px;
+  top:100px;
 }
