@@ -63,6 +63,8 @@ width:100px;
   display:block;
   float:left;
   transition: margin-left 0.5s;
+  position:fixed;
+  z-index:1;
 }
 /*.nav:hover{
   margin-left:0;
