@@ -129,6 +129,12 @@ ul{
   left:435px;
 }
 
+.social .insta{
+  position:absolute;
+  top:20px;
+  left:235px;
+}
+
 .footer{
   background-color:white;
   width:100%;
