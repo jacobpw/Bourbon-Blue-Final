@@ -111,7 +111,7 @@ ul{
 .menu{
   background-image:url('../image/texture.jpg');
   width:100%;
-  height:700px;}
+  height:1400px;}
 
 .menu h1{
   color:tan;
@@ -121,64 +121,71 @@ ul{
 
 .menu h2{
   color:tan;
-  font-size:30px;
+  font-size:40px;
   font-family:sans-serif;
 }
 
-.whites h1{
+.apps h1{
   position:absolute;
   top:350px;
   left:40%;
   padding-bottom:20px;
 }
 
-.whites h2{
+.apps h2{
   position:absolute;
-  top:430px;
+  top:440px;
   left:6.5%;
   padding-bottom:20px;
 }
 
-.whites{
-  -webkit-column-count: 3;
-  -webkit-column-span: 1;
-  -webkit-column-gap: 30px;
-  padding:110px 0px 175px 85px;
-}
-
-.whites p{
-  padding-bottom: 20px;
-}
-
-.reds{
-  position:absolute;
-  top:740px;
-
-}
-
-.reds h1{
-  position:absolute;
-  top:0px;
-  left:40%;
-  padding-bottom:20px;
-}
-
-.reds h2{
-  position:absolute;
-  top:60px;
-  left:6.5%;
-  padding-bottom:20px;
-}
-
-.reds p{
-  padding-bottom:30px;
-}
-
-.reds{
+.apps{
   -webkit-column-count: 3;
   -webkit-column-span: 1;
   -webkit-column-gap: 30px;
   padding:110px 0px 10px 85px;
+}
+
+.apps p{
+  padding-bottom: 30px;
+}
+
+.happyhour h2{
+  position:absolute;
+  top:65px;
+  left:6.5%;
+  padding-bottom:0px;
+}
+
+.happyhour{
+  position:absolute;
+  top:890px;
+  -webkit-column-count: 3;
+  -webkit-column-span: 1;
+  -webkit-column-gap: 30px;
+  padding:110px 0px 80px 85px;
+}
+
+.happyhour p{
+  padding-bottom:20px;
+}
+
+.entrees{
+  position:absolute;
+  top:1270px;
+  -webkit-column-count: 3;
+  -webkit-column-span: 1;
+  -webkit-column-gap: 25px;
+  padding:110px 0px 80px 85px;
+}
+
+.entrees h2{
+  position:absolute;
+  top:65px;
+}
+
+.entrees p{
+  padding-bottom:20px;
 }
 
 .footer{

@@ -108,14 +108,78 @@ ul{
   margin-top: 7px;
 }
 
-.banner{
-  background-image:url('../image/wine.png');
+.menu{
+  background-image:url('../image/texture.jpg');
   width:100%;
-  height:2400px;
+  height:700px;}
+
+.menu h1{
+  color:tan;
+  font-size:50px;
+  font-family:sans-serif;
+}
+
+.menu h2{
+  color:tan;
+  font-size:30px;
+  font-family:sans-serif;
+}
+
+.whites h1{
+  position:absolute;
+  top:350px;
+  left:40%;
+  padding-bottom:20px;
+}
+
+.whites h2{
+  position:absolute;
+  top:430px;
+  left:6.5%;
+  padding-bottom:20px;
+}
+
+.whites{
+  -webkit-column-count: 3;
+  -webkit-column-span: 1;
+  -webkit-column-gap: 30px;
+  padding:110px 0px 175px 85px;
+}
+
+.whites p{
+  padding-bottom: 20px;
+}
+
+.reds{
+  position:absolute;
+  top:740px;
 
 }
 
+.reds h1{
+  position:absolute;
+  top:0px;
+  left:40%;
+  padding-bottom:20px;
+}
 
+.reds h2{
+  position:absolute;
+  top:60px;
+  left:6.5%;
+  padding-bottom:20px;
+}
+
+.reds p{
+  padding-bottom:30px;
+}
+
+.reds{
+  -webkit-column-count: 3;
+  -webkit-column-span: 1;
+  -webkit-column-gap: 30px;
+  padding:110px 0px 10px 85px;
+}
 
 .footer{
   background-color:white;
